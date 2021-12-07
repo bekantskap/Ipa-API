@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dda448;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+a,
+li,
+p {
+  font-family: 'Fuzzy Bubbles', cursive;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+nav {
+  height: 12em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li a {
+  font-size: 1.5em;
+  transition: 0.5s ease-in-out;
+}
+nav ul li a:hover {
+  color: grey;
+}
+
+.logo a {
+  display: flex;
+}
+
+.logo a i {
+  display: flex;
+  align-items: center;
+  font-size: 3em;
+  color: gold;
+  margin: 5px;
+}
+nav h1 {
+  font-size: 4em;
+}
+
+.img-container img {
+  height: 30em;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+.middle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#found-beer-list {
+  width: 100em;
+  height: 40em;
+}
+
+#found-beer-list {
+  display: flex;
+}
+#found-beer-list li {
+  height: 40em;
+  width: 20em;
+}
+#found-beer-list img {
+  width: 4em;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
